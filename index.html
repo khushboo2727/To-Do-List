@@ -10,7 +10,19 @@
     <div class="heading">
         <h1 class="list-heading">TO DO LIST</h1>
     </div>
-    
+    <section>
+        <div class="to-do-text">
+            <input type="text" id="add-text" placeholder="Add Item">
+            <button class="add-list" onclick="addContant()">Add</button>
+        </div>
+        
+        <div class="to-do-list">
+            <ul class="list-element" id="list-element">
+                <li><input type="checkbox" class="checkBox" onclick="makeComplete()"> javascript </li>
+            </ul>
+
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

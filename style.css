@@ -8,3 +8,53 @@
     background-color: #121212;
     color: #fff;
  }
+ .heading{
+    /* border: 2px solid white; */
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+   
+ }
+ .to-do-text{
+    /* border: 2px solid white; */
+    margin: 20px;
+    padding: 10px;
+
+ }
+ #add-text{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    /* text-align: center; */
+    font-size: 20px;
+ }
+.add-list{
+    /* border: 2px solid white; */
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    font-size: 20px;
+    color: black;
+ }
+ .add-list:hover{
+    /* font-size: 10px; */
+    color: beige;
+ }
+ .list-element li{
+    font-size: 20px;
+    /* border: 2px solid white; */
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+ }
+ .list-element li:hover{
+    background-color:gray;
+    color: black;
+    /* text-shadow: rgb(11, 10, 10); */
+
+ }
+ section{
+   /* align-items: center; */
+   width:500px;
+   margin: 0 auto;
+ }
